@@ -1,0 +1,15 @@
+{
+    "application":          "Vue Calculator Example",
+    "apm":                  true,
+    "sw_trace_ignore_path": "/sockjs-node/**",
+    "vueErrors":            true,
+    "screen":               true,
+    "target":               "web",
+    "type":                 "module",
+    "mode":                 "live",
+    "logging":              "info",
+    "sourceMap":            true,
+    "path":                 "src",
+    "files":                "**/*.{js,vue}",
+    "index":                "public/index.html"
+}
