@@ -1,15 +1,20 @@
 {
+    "host":                 "revdebug.server.address",
+    "solution":             "Vue Project", 
     "application":          "Vue Calculator Example",
     "apm":                  true,
     "sw_trace_ignore_path": "/sockjs-node/**",
     "vueErrors":            true,
     "screen":               true,
+    "screenTime":           10,
     "target":               "web",
     "type":                 "module",
-    "mode":                 "live",
+    "mode":                 "onevent",
     "logging":              "info",
     "sourceMap":            true,
     "path":                 "src",
     "files":                "**/*.{js,vue}",
-    "index":                "public/index.html"
+    "index":                "public/index.html",
+    "entrySpan":            "single", 
+    "useFMP":               true
 }
