@@ -1,6 +1,6 @@
-## REVDEBUG REACT TUTORIAL
+## REVDEBUG VUE.JS TUTORIAL
 
-Simple React example, click the skull button to crash.
+Simple Vue.js example, click the skull button to crash.
 
 Configure RevDeBug repository:
 
